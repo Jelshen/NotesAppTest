@@ -4,7 +4,7 @@ A Django-based web application personal project for managing personal notes with
 
 ## Prerequisites
 
-- [Visual Studio Code](https://code.visualstudio.com/) - Code editor for development
+- [Visual Studio Code](https://code.visualstudio.com/) or any preferred IDE - Code editor for development
 - [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) - Database server for storing notes and user data
 - [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms) - Tool to manage SQL Server databases
 - [Python](https://www.python.org/downloads/) (3.x recommended) - Programming language required to run the application
