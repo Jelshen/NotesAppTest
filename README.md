@@ -1,6 +1,6 @@
 # Notes App
 
-A Django-based web application for managing personal notes with user authentication and CRUD operations.
+A Django-based web application personal project for managing personal notes with user authentication and CRUD operations.
 
 ## Prerequisites
 
