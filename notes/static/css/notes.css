@@ -1,0 +1,110 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.icon-action {
+    font-size: 20px; /* Adjust icon size */
+    cursor: pointer; /* Make the icon clickable */
+    color: #333; /* Default icon color */
+    background-color: transparent; /* Remove background */
+    border: none; /* Remove border */
+}
+
+.icon-action:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+.icon-action:focus {
+    outline: none; /* Remove focus outline */
+}
+
+.card-title {
+    padding-bottom: 10px;
+}
+
+.notes-header {
+    background-color: #2269d3;
+    color: white;
+    padding: 25px 40px;
+}
+
+.notes-header h1 {
+    margin: 0;
+    font-family: "Ruthie", cursive;
+}
+
+.ruthie-regular {
+    font-family: "Ruthie", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.add-note-btn {
+    background-color: #fff;
+    color: #1f61c5;
+}
+
+.add-note-btn:hover {
+    border-width: 2px;
+    border-color: white;
+}
+
+.main-content {
+    padding: 40px;
+}
+
+.card {
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+  
+.card-text {
+    text-align: justify; /* Justify the text */
+    hyphens: auto; /* Optional: Automatically hyphenate words if needed for better line breaks */
+}
+
+.fa-trash-alt:hover {
+    color: #dc3545; /* Red color for delete icon */
+}
+
+#userDropdown {
+    color: #ffffff; /* Dark gray */
+}
+
+#userDropdown:hover {
+    color: rgb(230, 230, 230); /* Slightly lighter gray when hovered */
+}
+
+.add-note-btn {
+    position: fixed; /* Keep it fixed in the viewport */
+    bottom: 50px; /* Adjust this value to control the distance from the bottom */
+    right: 50px; /* Adjust this value to control the distance from the right */
+    background-color: #2269d3; /* Your Bootstrap blue */
+    color: white; /* Button color */
+    border: none; /* Remove border */
+    border-radius: 50%; /* Make it circular */
+    width: 75px; /* Set width */
+    height: 75px; /* Set height */
+    display: flex; /* Center the content */
+    justify-content: center; /* Center the icon horizontally */
+    align-items: center; /* Center the icon vertically */
+    font-size: 30px; /* Icon size */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effects */
+}
+
+.add-note-btn:hover {
+    background-color: #1e5bbf; /* Slightly darker blue on hover */
+    transform: scale(1.1); /* Slightly enlarge button on hover */
+}
+
+.add-note-btn:focus {
+    outline: none; /* Remove focus outline */
+}
+
+.fas.fa-plus {
+    font-size: 1.2em; /* Makes the plus bigger */
+}
