@@ -88,9 +88,8 @@ A Django-based web application personal project for managing personal notes with
 
 - `config/` - Django project settings and configuration files
 - `notes/` - Notes application containing models, views, and templates for note management
-- `users/` - User authentication handling login, registration, and user management
-- `static/` - Static files like CSS and JavaScript for styling and interactivity
-- `templates/` - HTML templates for rendering the user interface
+- `users/` - Users application, authentication handling login, registration, and user management
+- `static/` - Static files, currently only has csrf.js file for CSRF Header initialization before any POST methods.
 
 ## Troubleshooting
 
